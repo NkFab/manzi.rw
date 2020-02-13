@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar">
+  <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
     <nav class="uk-navbar-container" uk-navbar>
     <div class="uk-navbar-left"><a class="uk-navbar-item uk-logo" href="#"><img :src="logo"/></a></div>   
     <div class="uk-navbar-right">
@@ -11,15 +11,15 @@
             <li><a href="#">CONTACT</a></li>
         </ul>
     </div>
-</nav>
+    </nav>
   </div>
 </template>
 
 <script>
-import logo from '../assets/logo.svg'
+import logo from '../assets/images/logo.svg'
 
 export default {
-  name: 'HelloWorld',
+  name: 'NavBar',
   data () {
     return {
       logo
