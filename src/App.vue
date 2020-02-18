@@ -2,12 +2,14 @@
   <div id="app">
     <NavBar/>
     <Home />
+    <About />
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar'
 import Home from './components/Home'
+import About from './components/About'
 import UIkit from 'uikit'
 import Icons from 'uikit/dist/js/uikit-icons';
 UIkit.use(Icons);
@@ -15,7 +17,8 @@ export default {
   name: 'App',
   components: {
     NavBar,
-    Home
+    Home,
+    About
   }
 }
 </script>
@@ -26,5 +29,13 @@ export default {
 @import './scss/site.less';
 #app {
   margin: 0 5%;
+}
+.section-title {
+    margin: 5vh 0;
+    font-size: 36pt;
+    text-align: center;
+}
+.white-background {
+  background: #fafafa;
 }
 </style>
