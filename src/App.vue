@@ -3,13 +3,15 @@
     <NavBar/>
     <Home />
     <About />
+    <Services />
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar'
-import Home from './components/Home'
-import About from './components/About'
+import Home from './components/pages/Home'
+import About from './components/pages/About'
+import Services from './components/pages/Services'
 import UIkit from 'uikit'
 import Icons from 'uikit/dist/js/uikit-icons';
 UIkit.use(Icons);
@@ -18,7 +20,8 @@ export default {
   components: {
     NavBar,
     Home,
-    About
+    About,
+    Services
   }
 }
 </script>
@@ -27,15 +30,10 @@ export default {
 @import "../node_modules/uikit/src/less/uikit.less";
 @import "./assets/less/theme.less";
 @import './scss/site.less';
-#app {
-  margin: 0 5%;
-}
+
 .section-title {
     margin: 5vh 0;
     font-size: 36pt;
     text-align: center;
-}
-.white-background {
-  background: #fafafa;
 }
 </style>

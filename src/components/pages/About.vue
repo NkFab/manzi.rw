@@ -1,6 +1,6 @@
 <template>
-    <div class="uk-container uk-container-large">
-        <div class="section-title"><strong >About Me</strong></div>
+    <div id="about" class="uk-container uk-container-large">
+        <div class="section-title"><strong>About Me</strong></div>
         <div class="uk-grid-match uk-grid uk-child-width-expand@s" uk-grid>
             <div>
                 <div class="hello-again">Hello again! I’m Manzi</div>
@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div>
-                <div class="hello-again">Skills</div>
+                <div class="hello-again">Skills and Level of proficience</div>
                 <div v-for='{skill, level} in skills' :key='skill'>
                     <ProgressBar :skill='skill' :level='level'/>
                 </div>
@@ -25,15 +25,21 @@
 </template>
 
 <script>
-import ProgressBar from './Progress'
+import ProgressBar from '../Progress'
 export default {
     name: 'AboutPage',
     data () {
         return {
             skills: [
-                {skill: 'HTML', level: '60'},
+                {skill: 'HTML', level: '90'},
                 {skill: 'CSS', level: '70'},
-                {skill: 'JS', level: '80' }
+                {skill: 'Js', level: '80' },
+                {skill: 'React Js', level: '70'},
+                {skill: 'Vue Js', level: '80'},
+                {skill: 'Node Js', level: '70' },
+                {skill: 'SQL databases', level: '80' },
+                {skill: 'Software Testing', level: '60' },
+                {skill: 'Mockup Design', level: '95' }
             ]
         }
     },
@@ -43,10 +49,14 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+#about {
+    margin: 2vh 0;
+    padding: 0 10vw;
+}
 .hello-again {
     font-size: 25pt;
-    margin: 2vh 0;
+    margin: 1vh 0;
 }
 .hello-text {
     font-size: 14pt;

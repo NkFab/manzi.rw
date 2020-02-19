@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import profile from '../assets/images/profile.png'
+import profile from '../../assets/images/profile.png'
 export default {
     name: 'HomePage',
     data() {
@@ -30,11 +30,8 @@ export default {
     }
 }
 </script>
-<style lang='css' scoped>
+<style scoped>
 #home {
-    margin-top: 9vh;
-}
-#hello {
-    font-size: 25px;
+    padding: 0 10vw;
 }
 </style>
