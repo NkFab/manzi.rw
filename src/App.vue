@@ -5,6 +5,7 @@
     <About />
     <Services />
     <Hire />
+    <Portofolio />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Services from './components/pages/Services'
 import Hire from './components/pages/HireMe'
+import Portofolio from './components/pages/Portofolio'
 import UIkit from 'uikit'
 import Icons from 'uikit/dist/js/uikit-icons';
 UIkit.use(Icons);
@@ -24,7 +26,8 @@ export default {
     Home,
     About,
     Services,
-    Hire
+    Hire,
+    Portofolio
   }
 }
 </script>
