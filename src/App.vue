@@ -4,6 +4,7 @@
     <Home />
     <About />
     <Services />
+    <Hire />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import NavBar from './components/NavBar'
 import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Services from './components/pages/Services'
+import Hire from './components/pages/HireMe'
 import UIkit from 'uikit'
 import Icons from 'uikit/dist/js/uikit-icons';
 UIkit.use(Icons);
@@ -21,7 +23,8 @@ export default {
     NavBar,
     Home,
     About,
-    Services
+    Services,
+    Hire
   }
 }
 </script>
