@@ -11,21 +11,15 @@
             <div>
                 <div class="uk-flex" uk-grid>
                     <div><img :src="pin" width="30" height="30"></div>
-                    <div>Kigali, Rwanda</div>
+                    <div><h4>Kigali, Rwanda</h4></div>
                 </div>
-            </div>
-            <br>
-            <div>
                 <div class="uk-flex" uk-grid>
-                    <div><img :src="pin" width="30" height="30"></div>
-                    <div>Kigali, Rwanda</div>
+                    <div><img :src="email" width="30" height="30"></div>
+                    <div><h4>nkakamanzi.fabrice@gmail.com</h4></div>
                 </div>
-            </div>
-            <br>
-            <div>
                 <div class="uk-flex" uk-grid>
-                    <div><img :src="pin" width="30" height="30"></div>
-                    <div>Kigali, Rwanda</div>
+                    <div><img :src="phone" width="30" height="30"></div>
+                    <div><h4>+250 786 155 871</h4> </div>
                 </div>
             </div>
         </div>
@@ -49,7 +43,7 @@ export default {
 <style scoped>
 #contact {
     background: #fafafa;
-    padding: 3vh 10vw;
+    padding: 5vh 10vw;
     color: #1b1b1b;
 }
 .in {
