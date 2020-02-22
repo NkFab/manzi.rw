@@ -18,7 +18,6 @@
                 <div v-for='{skill, level} in skills' :key='skill'>
                     <ProgressBar :skill='skill' :level='level'/>
                 </div>
-                
             </div>
         </div>
     </div>

@@ -6,6 +6,8 @@
     <Services />
     <Hire />
     <Portofolio />
+    <ContactMe />
+    <Footer />
   </div>
 </template>
 
@@ -16,6 +18,8 @@ import About from './components/pages/About'
 import Services from './components/pages/Services'
 import Hire from './components/pages/HireMe'
 import Portofolio from './components/pages/Portofolio'
+import ContactMe from './components/pages/ContactMe'
+import Footer from './components/Footer'
 import UIkit from 'uikit'
 import Icons from 'uikit/dist/js/uikit-icons';
 UIkit.use(Icons);
@@ -27,7 +31,9 @@ export default {
     About,
     Services,
     Hire,
-    Portofolio
+    Portofolio,
+    ContactMe,
+    Footer
   }
 }
 </script>
@@ -35,7 +41,7 @@ export default {
 <style lang="less">
 @import "../node_modules/uikit/src/less/uikit.less";
 @import "./assets/less/theme.less";
-@import './scss/site.less';
+@import './less/site.less';
 
 .section-title {
     margin: 5vh 0;
