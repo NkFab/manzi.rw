@@ -8,18 +8,18 @@
                 <textarea class="uk-textarea in" rows="5" placeholder="Message"></textarea>
                 <div><button class="uk-button uk-button-secondary">SEND MESSAGE</button></div>
             </div>
-            <div>
+            <div class="uk-height-1-1">
                 <div class="uk-flex" uk-grid>
-                    <div><img :src="pin" width="30" height="30"></div>
-                    <div><h4>Kigali, Rwanda</h4></div>
+                    <div><img :src="pin" width="25" height="25"></div>
+                    <div><h5>Kigali, Rwanda</h5></div>
                 </div>
                 <div class="uk-flex" uk-grid>
-                    <div><img :src="email" width="30" height="30"></div>
-                    <div><h4>nkakamanzi.fabrice@gmail.com</h4></div>
+                    <div><img :src="email" width="25" height="25"></div>
+                    <div><h5>nkakamanzi.fabrice@gmail.com</h5></div>
                 </div>
                 <div class="uk-flex" uk-grid>
-                    <div><img :src="phone" width="30" height="30"></div>
-                    <div><h4>+250 786 155 871</h4> </div>
+                    <div><img :src="phone" width="25" height="25"></div>
+                    <div><h5>+250 786 155 871</h5> </div>
                 </div>
             </div>
         </div>
@@ -48,6 +48,9 @@ export default {
 }
 .in {
     background: white;
+    margin: 1vh 0;
+}
+button {
     margin: 1vh 0;
 }
 </style>

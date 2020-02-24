@@ -3,7 +3,7 @@
         <div class="section-title"><strong>Have a Project in Mind?</strong></div>
         <div class="uk-grid-match uk-grid-match-child-expand@s uk-flex-center@m" uk-grid>
             <div class="uk-width-1-5@m"><button class="uk-button-large uk-button-primary">DOWNLOAD CV</button></div>
-            <div class="uk-width-1-5@m uk-margin-left"><button class="uk-button-large uk-button-default">HIRE ME</button></div>
+            <div class="uk-width-1-5@m"><button class="uk-button-large uk-button-default">HIRE ME</button></div>
         </div>
     </div>
 </template>
