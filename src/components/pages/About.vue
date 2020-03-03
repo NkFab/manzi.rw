@@ -50,8 +50,7 @@ export default {
 
 <style scoped>
 #about {
-    margin: 2vh 0;
-    padding: 0 10vw;
+    padding: 3vh 10vw;
 }
 .hello-again {
     font-size: 25pt;
