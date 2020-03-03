@@ -1,7 +1,7 @@
 <template>
     <div id="services" class="uk-container uk-container-xlarge uk-section-default">
         <div class="section-title"><strong style="color: #1b1b1b">Services</strong></div>
-        <div class="uk-grid-match uk-child-width-expand@s" uk-grid>
+        <div class="uk-grid-match uk-child-width-expand@s" uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true" uk-grid>
             <div class="uk-width-1-3@l" v-for="{icon, title, description} in services" :key="title">
                 <Card :icon="icon" :title="title" :description="description" />
             </div>
