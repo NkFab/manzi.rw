@@ -43,9 +43,14 @@ export default {
 @import "./assets/less/theme.less";
 @import './less/site.less';
 
+html {
+  scroll-behavior: smooth;
+}
+
 .section-title {
     margin: 5vh 0;
     font-size: 36pt;
     text-align: center;
 }
+
 </style>

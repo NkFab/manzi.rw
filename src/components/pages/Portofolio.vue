@@ -22,13 +22,13 @@ export default {
     data () {
         return {
             showcase_content: [
-                {image: dairynomics, text: 'Web Design', link: '#'},
-                {image: pharmaloc, text: 'Web Design', link: '#'},
-                {image: devskon, text: 'Web Design', link: '#'},
-                {image: epd, text: 'Web Design', link: '#'},
-                {image: tora, text: 'Web Design', link: '#'},
-                {image: manzi, text: 'Web Design', link: '#'},
-                {image: parkapp, text: 'Mobile Design', link: '#'}
+                {image: dairynomics, text: 'Web Design', link: 'https://www.figma.com/file/QFw94qdk7V8F5yLZEdLz9r/DN-ECOMMERCE'},
+                {image: pharmaloc, text: 'Web Design', link: 'https://www.figma.com/file/E78nZ3Sej7Pv1QhKrcrkqK/PharmLoc'},
+                {image: devskon, text: 'Web Design', link: 'https://www.figma.com/file/M57I0uNX4u0XNGbxhQlSvv/devskon'},
+                {image: epd, text: 'Web Design', link: 'https://www.figma.com/file/amkD3sWmInxVHFoN2HH8Xn/EPD'},
+                {image: tora, text: 'Web Design', link: 'https://www.figma.com/file/5lM5H87beQe1KZyIBhkUei/Feb-Rice'},
+                {image: manzi, text: 'Web Design', link: 'https://www.figma.com/file/hlFHvXMaDXyjNnPtWFE3PR/Manzi.rw'},
+                {image: parkapp, text: 'Mobile Design', link: 'https://www.figma.com/file/RsVzrNzMYmZpYdElSJgabR/Parking-app'}
             ]
         }
     },

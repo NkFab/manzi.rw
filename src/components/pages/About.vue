@@ -2,7 +2,7 @@
     <div id="about" class="uk-container uk-container-large">
         <div class="section-title"><strong>About Me</strong></div>
         <div class="uk-grid-match uk-grid uk-child-width-expand@s" uk-grid>
-            <div>
+            <div class="uk-height-1-1">
                 <div class="hello-again">Hello again! I’m Manzi</div>
                 <div class="hello-text">Hello! I am a full-stack associate software engineer passionate 
                     about building beautiful and interactive interfaces. My favourite thing
@@ -50,8 +50,7 @@ export default {
 
 <style scoped>
 #about {
-    margin: 2vh 0;
-    padding: 0 10vw;
+    padding: 3vh 10vw;
 }
 .hello-again {
     font-size: 25pt;
