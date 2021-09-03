@@ -2,8 +2,8 @@
   <div id="app">
     <NavBar />
     <Home />
-    <!-- <About />
-    <Services />
+     <About />
+   <!-- <Services />
     <Hire />
     <Portofolio />
     <ContactMe /> -->
@@ -14,7 +14,7 @@
 <script>
 import NavBar from "./components/v2/Navbar.vue";
 import Home from "./components/v2/pages/Home.vue";
-// import About from "./components/v1/pages/About";
+import About from "./components/v2/pages/About";
 // import Services from "./components/v1/pages/Services";
 // import Hire from "./components/v1/pages/HireMe";
 // import Portofolio from "./components/v1/pages/Portofolio";
@@ -28,7 +28,7 @@ export default {
   components: {
     NavBar,
     Home,
-    // About,
+    About,
     // Services,
     // Hire,
     // Portofolio,
