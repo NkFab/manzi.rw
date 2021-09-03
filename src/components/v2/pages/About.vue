@@ -25,7 +25,7 @@
       </div>
     </div>
     <div class="uk-width-1-1 uk-flex uk-flex-center">
-      <a :href="resumeLink" download="download" class="uk-button">Download Resume</a>
+      <a :href="`${publicPath}Nkaka Manzi Fabrice - Resume.pdf`" download="Nkaka Manzi Fabrice_Resume" class="uk-button">Download Resume</a>
     </div>
   </div>
 </template>
@@ -35,7 +35,7 @@ export default {
   name: "About",
   data() {
       return {
-          resumeLink: require('../../../assets/docs/Nkaka Manzi Fabrice - Resume.pdf')
+        publicPath: process.env.BASE_URL
       }
   }
 };
