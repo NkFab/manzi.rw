@@ -3,8 +3,9 @@
     <NavBar />
     <Home />
      <About />
-   <!-- <Services />
-    <Hire />
+   <Services />
+   <Experience />
+   <!--  <Hire />
     <Portofolio />
     <ContactMe /> -->
     <Footer />
@@ -15,11 +16,13 @@
 import NavBar from "./components/v2/Navbar.vue";
 import Home from "./components/v2/pages/Home.vue";
 import About from "./components/v2/pages/About";
-// import Services from "./components/v1/pages/Services";
+import Services from "./components/v2/pages/Services";
+import Experience from './components/v2/pages/Experience';
+import Footer from './components/v2/Footer'
 // import Hire from "./components/v1/pages/HireMe";
 // import Portofolio from "./components/v1/pages/Portofolio";
 // import ContactMe from "./components/v1/pages/ContactMe";
-import Footer from "./components/v1/Footer";
+// import Footer from "./components/v1/Footer";
 import UIkit from "uikit";
 import Icons from "uikit/dist/js/uikit-icons";
 UIkit.use(Icons);
@@ -29,7 +32,8 @@ export default {
     NavBar,
     Home,
     About,
-    // Services,
+    Services,
+    Experience,
     // Hire,
     // Portofolio,
     // ContactMe,

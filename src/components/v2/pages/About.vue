@@ -47,6 +47,7 @@ export default {
 }
 .hello-again {
   text-align: center;
+  color: #fafafa;
 }
 .hello-text {
   font-size: 1.15em;
