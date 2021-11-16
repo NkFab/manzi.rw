@@ -1,6 +1,6 @@
 <template>
   <div id="home" class="uk-container uk-container-large">
-    <div class="uk-flex uk-flex-between" >
+    <div class="uk-flex uk-flex-between" uk-parallax="target: #home; blur: 0,15;">
       <div class="uk-width-4-6@m">
         <h1 id="hello">HELLO, I’M <br />NKAKA.MANZI.<br /> FABRICE</h1>
         <p>A full stack software developer and UI designer.</p>

@@ -1,8 +1,9 @@
 <template>
-  <div id="experience">
+  <div id="experiences" uk-parallax="bgx: -50">
     <p>Some of the amazing companies I have worked/working with and for.</p>
     <div
       class="uk-grid-small uk-child-width-1-4@s uk-flex-center uk-text-center uk-flex-middle companies"
+      uk-parallax="x: -100, 100"
       uk-grid
     >
       <a href="http://limitless.rw/" target="_blank">
@@ -54,7 +55,7 @@ export default {
 };
 </script>
 <style lang="less" scoped>
-#experience {
+#experiences {
   height: 40%;
   width: 100%;
   background: #fafafa;
@@ -64,7 +65,7 @@ export default {
 
 p {
   color: #1b1b1b;
-  font-size: 1.15em;
+  font-size: 1.3em;
 }
 
 .companies {

@@ -9,7 +9,7 @@
     </div>
     <p>Crafted by me © Nkaka Manzi Fabrice 2021. <br />
 Using <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer"><img :src="vuee" alt="" height="21" width="21" /></a> </p>
-<p>made with <a href="https://getuikit.com/"><img :src="uk" target='_blank' alt=""/></a> </p>
+<p>made with <a href="https://getuikit.com/" target="_blank" ><img :src="uk" alt=""/></a> </p>
   </div>
 </template>
 <script>

@@ -1,6 +1,6 @@
 <template>
   <div id="services">
-    <div id="stacks" class="uk-child-width-expand@s uk-text-center" uk-grid>
+    <div id="stacks" class="uk-child-width-expand@s uk-text-center"   uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true" uk-grid>
       <div>
         <div class="uk-card uk-card-body">
           <img :src="design" />

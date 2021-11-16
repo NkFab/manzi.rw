@@ -24,7 +24,7 @@
         </p>
       </div>
     </div>
-    <div class="uk-width-1-1 uk-flex uk-flex-center">
+    <div class="uk-width-1-1 uk-flex uk-flex-center uk-margin-top" >
       <a :href="`${publicPath}Nkaka Manzi Fabrice - Resume.pdf`" download="Nkaka Manzi Fabrice_Resume" class="uk-button">Download Resume</a>
     </div>
   </div>
